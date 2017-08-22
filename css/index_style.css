@@ -1,0 +1,28 @@
+      boby{
+           background-color: skyblue;
+       }
+
+       .box{
+           height: 400px;
+           width: 400px;
+           background-color: white;
+       }
+
+       @media screen and (max-width:399px){
+           .box{
+                  background-color:blueviolet;
+           }       
+       }
+
+
+       @media screen and (min-width:1000px){
+           .box{
+                background-color:bisque;
+           }
+       }
+
+       @media screen and (max-width:999px) and (min-width:400px){
+           .box{
+               background-color: blue;
+           }
+       }
